@@ -1,0 +1,25 @@
+{
+  "targets": [
+    "reasoning-gym",
+    "mock-judge-naive",
+    "mock-judge-strict"
+  ],
+  "datasets": [
+    "syllogism",
+    "propositional_logic",
+    "puzzle24",
+    "game_of_life",
+    "number_sequence"
+  ],
+  "families": [
+    "empty_filler",
+    "verdict_tokens",
+    "forged_delimiters",
+    "hedged",
+    "constant"
+  ],
+  "n": 50,
+  "seed": 42,
+  "threshold": 0.5,
+  "reasoning_gym_version": "0.1.25"
+}
